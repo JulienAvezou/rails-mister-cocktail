@@ -1,6 +1,17 @@
-.navbar-lewagon {
+.navbar {
   justify-content: space-between;
-  background: white;
+  background: #8789C0;
+  padding: 25px;
+  margin-bottom: 8px;
+  border-bottom: red;
+
+  h3 {
+    color: white;
+
+    &:hover {
+      color: red;
+    }
+  }
 }
 
 .navbar-lewagon .navbar-collapse {
@@ -10,3 +21,14 @@
 .navbar-lewagon .navbar-brand img {
   width: 40px;
 }
+
+.secret-drink {
+    opacity: 0;
+    text-decoration: none;
+
+    &:hover {
+      color: red;
+      opacity: 1;
+      text-decoration: none;
+    }
+  }
