@@ -12,7 +12,8 @@
   </head>
 
   <body>
-    <nav class="navbar"><%= link_to 'HOME', cocktails_path, class: "btn btn-danger" %></i><a href="#" class="secret-drink">You found the secret drink...</a><h3>WELCOME TO PARADISE</h3></nav>
+    <nav class="navbar"><%= link_to 'HOME', root_path, class: "btn btn-danger" %><%= link_to 'click for secret drink...', cocktails_secret_path, class: "secret-drink" %><h3><i class="fas fa-cocktail"></i>
+WELCOME TO PARADISE</h3></nav>
     <%= yield %>
   </body>
 </html>

@@ -1,5 +1,7 @@
 <h1>Create your favorite alcoholic beverage!</h1>
 <%= simple_form_for(@cocktail) do |f| %>
   <%= f.input :name %>
-  <%= f.submit %>
+  <%= f.submit "Start mixing", class: "btn btn-primary" %>
 <% end %>
+
+<div class="logo"></div>

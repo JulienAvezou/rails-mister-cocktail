@@ -1,7 +1,0 @@
-<h1>Dose (with moderation...)</h1>
-
-<%= simple_form_for [ @cocktail, @dose ] do |f| %>
-  <%= f.input :description %>
-  <%= f.input :ingredient, collection: Ingredient.order(:name), prompt: "Pick your poison" %>
-  <%= f.submit "Submit review", class: "btn btn-primary" %>
-<% end %>

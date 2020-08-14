@@ -1,0 +1,15 @@
+h2 {
+  text-align: center;
+
+  &:hover {
+    color: red;
+  }
+}
+
+.align {
+  text-align: center;
+  a {
+    color: white;
+    text-decoration: none;
+  }
+}
