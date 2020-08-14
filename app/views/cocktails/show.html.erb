@@ -17,3 +17,4 @@
 <div class="align">
   <p class="btn btn-primary"><%= link_to 'Check out your other drinks', root_path %></p>
 </div>
+<%= cl_image_tag @cocktail.photo.key, height: 800, width: 800, :radius=>"max", crop: :fill %>
